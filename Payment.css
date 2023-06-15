@@ -1,0 +1,64 @@
+.body {
+background-color: wheat;
+padding-left: 160px;
+}
+
+.payments-container {
+padding-left: 170px;
+width: 550px;
+}
+
+.payment-options {
+width: 100%;
+font-family: arial, tahoma;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.payments-paragraph-1 {
+width: 100%;
+font-family: arial, tahoma;
+font-size: 15px;
+margin-bottom: 10px;
+}
+
+.payments-paragraph-2 {
+width: 100%;
+font-family: arial, tahoma;
+font-size: 15px;
+margin-bottom: 10px;
+}
+
+.payments-paragraph-3 {
+width: 100%;
+font-family: arial, tahoma;
+font-size: 15px;
+}
+
+  /* Display 0px to 767px */
+
+  @media (max-width: 767px) {
+  .left-second-sidebar {
+  display: none;
+  }
+  .body {
+  margin-top: 55px;
+  margin-left: 0px;
+  padding-left: 0px;
+  }
+  .payments-container {
+  width: 96%;
+  margin-left: -160px;
+  }
+  }
+
+    /* Display 768px to 1023px */
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+    padding-left: 140px;
+    }
+    .payments-container {
+    width: 400px;
+    }
+    }

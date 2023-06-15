@@ -1,0 +1,138 @@
+.body {
+background-color: wheat;
+padding-left: 170px;
+}
+
+.exchange-container {
+padding-left: 160px;
+width: 550px;
+}
+
+.exchange-paragraph {
+font-size: 20px;
+font-family: arial, tahoma;
+padding-bottom: 10px;
+width: 100%;
+}
+
+.exchange-paragraph-1 {
+font-size: 15px;
+font-family: arial, tahoma;
+width: 100%;
+padding-top: 10px;
+}
+
+.exchange-paragraph-2 {
+font-size: 15px;
+font-family: arial, tahoma;
+width: 100%;
+padding-top: 10px;
+}
+
+.exchange-paragraph-3 {
+font-size: 15px;
+font-family: arial, tahoma;
+width: 100%;
+padding-top: 10px;
+}
+
+.exchange-paragraph-4 {
+font-size: 15px;
+font-family: arial, tahoma;
+width: 100%;
+padding-top: 10px;
+}
+
+.note-that {
+margin-top: 20px;
+font-size: 20px;
+font-family: arial, tahoma;
+margin-bottom: 20px;
+width: 100%;
+}
+
+.note-that-paragraph-1 {
+font-size: 15px;
+font-family: arial, tahoma;
+width: 100%;
+}
+
+.note-that-paragraph-2 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-3 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-4 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-5 {
+width: 100%;
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+}
+
+.note-that-paragraph-6 {
+width: 100%;
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+}
+
+.last-paragraph {
+font-size: 15px;
+font-family: arial, tahoma;
+font-weight: bold;
+padding-top: 40px;
+padding-left: 63px;
+width: 100%;
+}
+
+  /* Display 0px to 767px */
+
+  @media (max-width: 767px) {
+  .body {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 55px;
+  }
+  .left-second-sidebar {
+  display: none;
+  }
+  .exchange-container {
+  width: 96%;
+  margin-left: -150px;
+  }
+  .last-paragraph {
+  margin-left: -63px;
+  font-size: 12px;
+  }
+  }
+
+    /* Display 768px to 1023px */
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+    padding-left: 150px;
+    }
+    .exchange-container {
+    width: 400px;
+    }
+    .last-paragraph {
+    margin-left: -58px;
+    font-size: 13px;
+    }
+    }

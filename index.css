@@ -1,0 +1,422 @@
+/* Body */
+
+.body {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+flex-direction: row;
+row-gap: 5px;
+background-color: wheat;
+padding-left: 173px;
+margin-right: 4px;
+margin-bottom: 8px;
+margin-top: 8px;
+}
+
+/* Rechargeable crystal table lamp container */
+
+.rechargeable-crystal-table-lamp-container {
+width: auto;
+height: auto;
+}
+.rechargeable-crystal-table-lamp-image {
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+.rechargeable-crystal-table-lamp-paragraph {
+width: 100%;
+height: 39px;
+background-color: wheat;
+border: 1px;
+border-style: solid;
+border-color: black;
+font-size: 14px;
+font-family: tahoma, arial;
+}
+.rechargeable-crystal-table-lamp-paragraph:hover {
+background-color: black;
+color: white;
+}  
+.rechargeable-crystal-table-lamp-buy-now-button {
+background-color: white;
+margin-top: -1px;
+width: 100%;
+height: 39px;
+border: 1px;
+border-color: black;
+border-style: solid;
+font-family: tahoma, arial;
+font-size: 14px;
+cursor: pointer;
+}
+.rechargeable-crystal-table-lamp-buy-now-button:hover {
+background-color: black;
+color: white;
+}
+
+/* Pink velvet 16x16 inch pillow container */
+
+.pink-velvet-16x16-inch-pillow-container {
+width: auto;
+height: auto;
+}
+.pink-velvet-16x16-inch-pillow-image {
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+.pink-velvet-16x16-inch-pillow-paragraph {
+width: 100%;
+height: 39px;
+background-color: wheat;
+border: 1px;
+border-style: solid;
+border-color: black;
+font-size: 14px;
+font-family: tahoma, arial;
+}
+.pink-velvet-16x16-inch-pillow-paragraph:hover {
+background-color: black;
+color: white;
+}
+.pink-velvet-16x16-inch-pillow-buy-now-button {
+width: 100%;
+height: 39px;
+background-color: white;
+border: 1px;
+border-style: solid;
+border-color: black;
+font-size: 14px;
+font-family: tahoma, arial;
+margin-top: -1px;
+cursor: pointer;
+}
+.pink-velvet-16x16-inch-pillow-buy-now-button:hover {
+background-color: black;
+color: white;
+}
+
+/* Cotton white bedsheet container */
+
+.cotton-white-bedsheet-container {
+width: auto;
+height: auto;
+}
+.cotton-white-bedsheet-image {
+width: 100%;
+height: 100%;
+cursor: pointer;
+} 
+.cotton-white-bedsheet-paragraph {
+width: 100%;
+height: 39px;
+background-color: wheat;
+border: 1px;
+border-style: solid;
+border-color: black;
+font-size: 14px;
+font-family: tahoma, arial;
+}
+.cotton-white-bedsheet-paragraph:hover {
+background-color: black;
+color: white;
+}
+.cotton-white-bedsheet-buy-now-button {
+background-color: white;
+margin-top: -1px;
+width: 100%;
+height: 39px;
+border: 1px;
+border-color: black;
+border-style: solid;
+font-family: tahoma, arial;
+font-size: 14px;
+cursor: pointer;
+}
+.cotton-white-bedsheet-buy-now-button:hover {
+background-color: black;
+color: white;
+}
+
+/* Crystal table lamp container */
+
+.crystal-table-lamp-container {
+width: auto;
+height: auto;
+}
+.crystal-table-lamp-image {
+width: 100%;
+height: 100%;
+cursor: pointer;
+} 
+.crystal-table-lamp-paragraph {
+width: 100%;
+height: 39px;
+background-color: wheat;
+border: 1px;
+border-style: solid;
+border-color: black;
+font-size: 14px;
+font-family: tahoma, arial;
+}
+.crystal-table-lamp-paragraph:hover {
+background-color: black;
+color: white;
+}
+.crystal-table-lamp-buy-now-button {
+background-color: white;
+margin-top: -1px;
+width: 100%;
+height: 39px;
+border: 1px;
+border-color: black;
+border-style: solid;
+font-family: tahoma, arial;
+font-size: 14px;
+cursor: pointer;
+}
+.crystal-table-lamp-buy-now-button:hover {
+background-color: black;
+color: white;
+}
+
+/* Golden silk bedsheet with 2 pillow covers container */
+
+.golden-silk-bedsheet-with-2-pillow-covers-container {
+width: auto;
+height: auto;
+}
+.golden-silk-bedsheet-with-2-pillow-covers-image {
+width: 100%;
+height: 100%;
+cursor: pointer;
+} 
+.golden-silk-bedsheet-with-2-pillow-covers-paragraph {
+width: 100%;
+height: 39px;
+background-color: wheat;
+border: 1px;
+border-style: solid;
+border-color: black;
+font-size: 14px;
+font-family: tahoma, arial;
+}
+.golden-silk-bedsheet-with-2-pillow-covers-paragraph:hover {
+background-color: black;
+color: white;
+}
+.golden-silk-bedsheet-with-2-pillow-covers-buy-now-button {
+background-color: white;
+margin-top: -1px;
+width: 100%;
+height: 39px;
+border: 1px;
+border-color: black;
+border-style: solid;
+font-family: tahoma, arial;
+font-size: 14px;
+cursor: pointer;
+}
+.golden-silk-bedsheet-with-2-pillow-covers-buy-now-button:hover {
+background-color: black;
+color: white;
+}
+
+  /* Display 0px to 767px */
+
+  @media (max-width: 767px) {
+  .body {
+  grid-template-columns: 1fr 1fr;
+  margin-top: 53px;
+  margin-left: -174px;
+  }
+  .rechargeable-crystal-table-lamp-container {
+  margin-left: 5px;
+  margin-right: 0px;
+  }
+  .pink-velvet-16x16-inch-pillow-container {
+  margin-left: 5px;
+  margin-right: 0px;
+  }
+  .cotton-white-bedsheet-container {
+  margin-left: 5px;
+  margin-right: 0px;
+  }
+  .crystal-table-lamp-container {
+  margin-left: 5px;
+  margin-right: 0px;
+  }
+  .golden-silk-bedsheet-with-2-pillow-covers-container {
+  margin-left: 5px;
+  margin-right: 0px;
+  }
+  .left-sidebar {
+  display: none;
+  }
+  .left-second-sidebar {
+  margin-top: 50px;
+  margin-left: -150px;
+  }
+  }
+
+    /* Display 768px to 1023px */
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: -14px;
+    }
+    .header {
+    display: none;
+    }
+    .rechargeable-crystal-table-lamp-container {
+    margin-right: 5px;
+    }
+    .pink-velvet-16x16-inch-pillow-container {
+    margin-right: 5px;
+    }
+    .cotton-white-bedsheet-container {
+    margin-right: 5px;
+    }
+    .crystal-table-lamp-container {
+    margin-right: 5px;
+    }
+    .golden-silk-bedsheet-with-2-pillow-covers-container {
+    margin-right: 5px;
+    }
+    }
+
+      /* Display 1024px to 1439px */
+
+      @media (min-width: 1024px) and (max-width: 1439px) {
+      .body {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-left: 6px;
+      }
+      .header {
+      display: none;
+      }
+      .rechargeable-crystal-table-lamp-container {
+      margin-right: 5px;
+      }
+      .rechargeable-crystal-table-lamp-paragraph {
+      font-size: 16px;
+      height: 42px;
+      }
+      .rechargeable-crystal-table-lamp-buy-now-button {
+      font-size: 16px;
+      height: 42px;
+      }
+      .pink-velvet-16x16-inch-pillow-container {
+      margin-right: 5px;
+      }
+      .pink-velvet-16x16-inch-pillow-paragraph {
+      font-size: 16px;
+      height: 42px;
+      }
+      .pink-velvet-16x16-inch-pillow-buy-now-button {
+      font-size: 16px;
+      height: 42px;
+      }
+      .cotton-white-bedsheet-container {
+      margin-right: 5px;
+      }
+      .cotton-white-bedsheet-paragraph {
+      font-size: 16px;
+      height: 42px;
+      }
+      .cotton-white-bedsheet-buy-now-button {
+      font-size: 16px;
+      height: 42px;
+      }
+      .crystal-table-lamp-container {
+      margin-right: 5px;
+      }
+      .crystal-table-lamp-paragraph {
+      font-size: 16px;
+      height: 42px;
+      }
+      .crystal-table-lamp-buy-now-button {
+      font-size: 16px;
+      height: 42px;
+      }
+      .golden-silk-bedsheet-with-2-pillow-covers-container {
+      margin-right: 5px;
+      }
+      .golden-silk-bedsheet-with-2-pillow-covers-paragraph {
+      font-size: 16px;
+      height: 42px;
+      }
+      .golden-silk-bedsheet-with-2-pillow-covers-buy-now-button {
+      font-size: 16px;
+      height: 42px;
+      }
+      }
+
+        /* Display 1440px to max */
+
+        @media (min-width: 1440px) {
+        .body {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-left: 171px;
+        padding-right: -2px;
+        }
+        .header {
+        display: none;
+        }
+        .rechargeable-crystal-table-lamp-container {
+        margin-right: 5px;
+        }
+        .rechargeable-crystal-table-lamp-paragraph {
+        font-size: 16px;
+        height: 42px;
+        }
+        .rechargeable-crystal-table-lamp-buy-now-button {
+        font-size: 16px;
+        height: 42px;
+        }
+        .pink-velvet-16x16-inch-pillow-container {
+        margin-right: 5px;
+        }
+        .pink-velvet-16x16-inch-pillow-paragraph {
+        font-size: 16px;
+        height: 42px;
+        }
+        .pink-velvet-16x16-inch-pillow-buy-now-button {
+        font-size: 16px;
+        height: 42px;
+        }
+        .cotton-white-bedsheet-container {
+        margin-right: 5px;
+        }
+        .cotton-white-bedsheet-paragraph {
+        font-size: 16px;
+        height: 42px;
+        }
+        .cotton-white-bedsheet-buy-now-button {
+        font-size: 16px;
+        height: 42px;
+        }
+        .crystal-table-lamp-container {
+        margin-right: 5px;
+        }
+        .crystal-table-lamp-paragraph {
+        font-size: 16px;
+        height: 42px;
+        }
+        .crystal-table-lamp-buy-now-button {
+        font-size: 16px;
+        height: 42px;
+        }
+        .golden-silk-bedsheet-with-2-pillow-covers-container {
+        margin-right: 5px;
+        }
+        .golden-silk-bedsheet-with-2-pillow-covers-paragraph {
+        font-size: 16px;
+        height: 42px;
+        }
+        .golden-silk-bedsheet-with-2-pillow-covers-buy-now-button {
+        font-size: 16px;
+        height: 42px;
+        }
+        }

@@ -1,0 +1,72 @@
+.body {
+background-color: wheat;
+padding-left: 170px;
+}
+
+.contact-us-container {
+padding-left: 160px;
+width: 550px;
+}
+
+.contact-us-paragraph {
+font-family: arial, tahoma;
+font-size: 20px;
+width: 100%;
+}
+
+.contact-us-paragraph-1 {
+font-family: arial, tahoma;
+font-size: 15px;
+width: 100%;
+margin-top: 20px;
+}
+
+.contact-us-paragraph-2 {
+font-family: arial, tahoma;
+font-size: 15px;
+}
+
+.contact-us-paragraph-3 {
+width: 100%;
+font-family: arial, tahoma;
+font-weight: bold;
+font-size: 12px;
+margin-top: 30px;
+margin-left: 2px;
+}
+
+.contact-us-paragraph-4 {
+font-family: arial, tahoma;
+font-weight: bold;
+font-size: 12px;
+width: 100%;
+margin-left: 2px;
+}
+
+  /* Display 0px to 767px */
+
+  @media (max-width: 767px) {
+  .left-second-sidebar {
+  display: none;
+  }
+  .body {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 55px;
+  }
+  .contact-us-container {
+  margin-left: -150px;
+  width: 96%;
+  }
+  }
+
+    /* Display 768px to 1023px */
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+    padding-left: 150px;
+    }
+    .contact-us-container {
+    width: 400px;
+    }
+    }

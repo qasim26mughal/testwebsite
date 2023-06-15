@@ -1,0 +1,55 @@
+/* Body */
+
+.body {
+background-color: wheat;
+display: grid;
+flex: 1fr;
+}
+
+  /* Display 0px to 767px */
+
+  @media (max-width: 767px) {
+  .crystal-table-lamp-photo-1 {
+  width: 100%;
+  margin-top: 50px;
+  }
+  }
+
+    /* Display 768px to 1023px */
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+    padding-left: 150px;
+    }
+    .crystal-table-lamp-photo-1 {
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 1%;
+    }
+    }
+
+      /* Display 1024px to 1439px */
+
+      @media (min-width: 1024px) and (max-width: 1439px) {
+      .body {
+      padding-left: 170px;
+      }
+      .crystal-table-lamp-photo-1 {
+      width: 40%;
+      margin-top: 1%;
+      margin-left: 1%;
+      }
+      }
+
+        /* Display 1440px to max */
+
+        @media (min-width: 1440px) {
+        .body {
+        padding-left: 170px;
+        }
+        .crystal-table-lamp-photo-1 {
+        width: 40%;
+        margin-top: 1%;
+        margin-left: 1%;
+        }
+        }

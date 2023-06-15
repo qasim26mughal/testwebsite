@@ -1,0 +1,155 @@
+.header{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 50px;
+background-color: white;
+color: black;
+border-bottom: 1px black;
+box-shadow: 0 2px 2px  rgba(0, 0, 0, 0.2);
+}
+  
+.qasim-mughal {
+display: flex;
+margin-top: 14px;
+margin-left: 20px;
+font-family: arial, tahoma;
+font-size: 20px;
+background-color: white;
+color: black;
+}
+  
+.menu-container {
+position: fixed;
+right: 5px;
+top: 5px;
+}
+  
+.checkbox-tick {
+display: none;
+}
+ 
+.menu-photo {
+width: 50px;
+height: 41px;
+}
+  
+#header-sidebar {
+position: fixed;
+top: 50px;
+right: 0;
+bottom: 0;
+width: 180px;
+background-color: white;
+color: black;
+transform: translateX(180px);
+transition: 0.15s;
+}
+
+#menu-sidebar:checked ~ #header-sidebar {
+transform: translateX(0px);
+transition: 0.15s;
+}
+
+.mobile-header-all-products-button {
+color: black;
+background-color: white;
+border: none;
+width: 100%;
+height: 35px;
+font-size: 16px;
+font-family: arial, tahoma;
+cursor: pointer;
+}
+.mobile-header-all-products-button:hover {
+background-color: black;
+color: white;
+}
+  
+.mobile-header-pillow-covers-button {
+color: black;
+background-color: white;
+border: none;
+width: 100%;
+height: 35px;
+font-size: 16px;
+font-family: arial, tahoma;
+cursor: pointer;
+}
+.mobile-header-pillow-covers-button:hover {
+background-color: black;
+color: white;
+}
+
+.mobile-header-bed-sheets-button {
+color: black;
+background-color: white;
+border: none;
+width: 100%;
+height: 35px;
+font-size: 16px;
+font-family: arial, tahoma;
+cursor: pointer;
+}
+.mobile-header-bed-sheets-button:hover {
+background-color: black;
+color: white;
+}
+
+.mobile-header-lamps-button {
+color: black;
+background-color: white;
+border: none;
+width: 100%;
+height: 35px;
+font-size: 16px;
+font-family: arial, tahoma;
+cursor: pointer;
+}
+.mobile-header-lamps-button:hover {
+background-color: black;
+color: white;
+}
+
+.mobile-header-cart-button {
+position: fixed;
+bottom: 35px;
+color: black;
+background-color: white;
+border: none;
+width: 100%;
+height: 35px;
+font-size: 16px;
+font-family: arial, tahoma;
+cursor: pointer;
+}
+.mobile-header-cart-button:hover {
+background-color: black;
+color: white;
+}
+
+.mobile-header-information-button {
+position: fixed;
+bottom: 0;
+color: black;
+background-color: white;
+border: none;
+width: 100%;
+height: 35px;
+font-size: 16px;
+font-family: arial, tahoma;
+cursor: pointer;
+}
+.mobile-header-information-button:hover {
+background-color: black;
+color: white;
+}
+
+  /* Display 0px to 768px */
+
+  @media (min-width: 768px) {
+  .header {
+  display: none;
+  }
+  }

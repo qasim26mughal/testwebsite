@@ -1,0 +1,135 @@
+.body {
+background-color: wheat;
+padding-left: 170px;
+}
+
+.delivery-issues-container {
+width: 550px;
+margin-left: 160px;
+}
+
+.issue-exchange {
+width: 100%;
+font-size: 20px;
+font-family: arial, tahoma;
+margin-bottom: 20px;
+}
+
+.issue-exchange-paragraph-1 {
+width: 100%;
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+}
+
+.issue-exchange-paragraph-2 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.issue-exchange-paragraph-3 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.issue-exchange-paragraph-4 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.issue-exchange-paragraph-5 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.issue-return {
+font-size: 20px;
+font-family: arial, tahoma;
+margin-top: 20px;
+width: 100%;
+}
+
+.issue-return-paragraph-1 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 20px;
+width: 100%;
+}
+
+.issue-return-paragraph-2 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.issue-return-paragraph-3 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.issue-return-paragraph-4 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+.note-that {
+font-size: 20px;
+font-family: arial, tahoma;
+margin-top: 20px;
+width: 100%;
+}
+
+.note-that-paragraph-1 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 20px;
+width: 100%;
+}
+
+.note-that-paragraph-2 {
+font-size: 15px;
+font-family: arial, tahoma;
+margin-top: 10px;
+width: 100%;
+}
+
+  /* Display 0px to 767px */
+
+  @media (max-width: 767px) {
+  .body {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 55px;
+  }
+  .left-second-sidebar {
+  display: none;
+  }
+  .delivery-issues-container {
+  margin-left: 10px;
+  width: 96%;
+  }
+  }
+
+    /* Display 768px to 1023px */
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+    padding-left: 150px;
+    }
+    .delivery-issues-container {
+    width: 400px;
+    }
+    }

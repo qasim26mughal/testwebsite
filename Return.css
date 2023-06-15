@@ -1,0 +1,134 @@
+.body {
+background-color: wheat;
+padding-left: 170px;
+}
+
+.return-container {
+padding-left: 160px;
+width: 550px;
+}
+
+.return-paragraph {
+font-family: arial, tahoma;
+font-size: 20px;
+padding-bottom: 10px;
+width: 100%;
+}
+
+
+.return-paragraph-1 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.return-paragraph-2 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.return-paragraph-3 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.note-that {
+font-family: arial, tahoma;
+font-size: 20px;
+padding-top: 20px;
+padding-bottom: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-1 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-2 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-3 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-4 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-5 {
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.note-that-paragraph-6 {
+width: 100%;
+font-size: 15px;
+font-family: arial, tahoma;
+padding-top: 10px;
+width: 100%;
+}
+
+.last-paragraph {
+font-size: 15px;
+font-family: arial, tahoma;
+font-weight: bold;
+padding-top: 40px;
+padding-left: 50px;
+width: 100%;
+}
+
+  /* Display 0px to 767px */
+
+  @media (max-width: 767px) {
+  .body {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 55px;
+  }
+  .left-second-sidebar {
+  display: none;
+  }
+  .return-container {
+  width: 96%;
+  margin-left: -150px;
+  }
+  .last-paragraph {
+  font-size: 12px;
+  margin-left: -50px;
+  }
+  }
+
+    /* Display 768px to 1023px */
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+    padding-left: 150px;
+    }
+    .return-container {
+    width: 400px;
+    }
+    .last-paragraph {
+    margin-left: -45px;
+    font-size: 13px;
+    }
+    }
