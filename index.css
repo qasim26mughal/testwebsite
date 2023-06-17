@@ -229,6 +229,8 @@ color: white;
   grid-template-columns: 1fr 1fr;
   margin-top: 53px;
   margin-left: -174px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
   }
   .rechargeable-crystal-table-lamp-container {
   margin-left: 5px;
